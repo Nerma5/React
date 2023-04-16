@@ -1,8 +1,6 @@
 import React from "react";
 import './card.css'
-import User from "./User/User";
 import Button from "./Button/Button";
-import Login from "./Login/Login";
 
 const Card = ({name,login,web,repo}) =>{
     return(
@@ -13,7 +11,7 @@ const Card = ({name,login,web,repo}) =>{
                     <br />
 					<div className="email">{login}@email.com</div>
                     <br />
-					<div className="data">
+					<div>
                         <b>{web} :</b>
                         <p>{repo}</p>
                     </div>
