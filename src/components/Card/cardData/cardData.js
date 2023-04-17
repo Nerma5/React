@@ -8,7 +8,7 @@ const cardData =[
       login: 'nermahh5',
       web: 'GitHub',
       repo: '25 repositories',
-      icons: {FaGithub}
+      icons: <FaGithub/>
     },
     {
       id:2,
@@ -16,7 +16,7 @@ const cardData =[
       login: 'anesdolicanin',
       web: 'Js',
       repo: ' 30 projects',
-      icons: {FaJs}
+      icons: <FaJs />
     },
     {
       id:3,
@@ -24,7 +24,7 @@ const cardData =[
       login: 'hamzaat5',
       web: 'Linkedn',
       repo: '500+ conections',
-      icons: {FaLinkedin}
+      icons: <FaLinkedin />
     },
     {
       id:4,
@@ -32,7 +32,7 @@ const cardData =[
       login: 'ensargit2',
       web: 'Slack',
       repo: '20 servers',
-      icons: {FaSlack}
+      icons: <FaSlack />
     }
   ]
 
