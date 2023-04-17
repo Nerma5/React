@@ -1,8 +1,10 @@
 import React from "react";
 import './card.css'
 import Button from "./Button/Button";
+import { FaGithub, FaJs, FaLinkedin, FaSlack} from 'react-icons/fa';
 
-const Card = ({name,login,web,repo}) =>{
+
+const Card = ({name,login,web,repo,icons}) =>{
     return(
             <div  className="card">
 				<img />
@@ -12,9 +14,10 @@ const Card = ({name,login,web,repo}) =>{
 					<div className="email">{login}@email.com</div>
                     <br />
 					<div>
-                        <b>{web} :</b>
+                        <b>{icons} {web} :</b>
                         <p>{repo}</p>
                     </div>
+
                     <br />
 
 					<footer>

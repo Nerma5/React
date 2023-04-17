@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from './components/Card/Card'
 import cardData from './components/Card/cardData/cardData'
-
+import { FaGithub, FaJs, FaLinkedin, FaSlack } from 'react-icons/fa';
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
         login={card.login}
         web={card.web}
         repo={card.repo}
+        icons={card.icons}
         />
       ))}
     </div>
