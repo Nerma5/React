@@ -10,7 +10,9 @@ const cardData =[
     login: 'nermahh5',
     web: 'GitHub',
     repo: '25 repositories',
-    icons: <FaGithub/>
+    icons: <FaGithub/>,
+    color1: 'rgb(51,255,51)',
+    color2: 'rgb(255,153,240)'
   },
   {
     id:2,
@@ -18,7 +20,12 @@ const cardData =[
     login: 'anesdolicanin',
     web: 'Js',
     repo: ' 30 projects',
-    icons: <FaJs />
+    icons: <FaJs />,
+    color1: 'rgb(223,112,112)',
+    color2: 'rgb(112,175,223)'
+
+
+
   },
   {
     id:3,
@@ -26,7 +33,11 @@ const cardData =[
     login: 'hamzaat5',
     web: 'Linkedn',
     repo: '500+ conections',
-    icons: <FaLinkedin />
+    icons: <FaLinkedin />,
+    color1: 'rgb(128,128,128)',
+    color2: 'rgb(51,51,255)'
+
+
   },
   {
     id:4,
@@ -34,7 +45,11 @@ const cardData =[
     login: 'ensargit2',
     web: 'Slack',
     repo: '20 servers',
-    icons: <FaSlack />
+    icons: <FaSlack />,
+    color1: 'rgb(250,43,43)',
+    color2: 'rgb(255,255,0)'
+
+
   }
 ]
 
@@ -52,6 +67,8 @@ function App() {
         web={card.web}
         repo={card.repo}
         icons={card.icons}
+        color1={card.color1}
+        color2={card.color2}
         />
       ))}
     </div>

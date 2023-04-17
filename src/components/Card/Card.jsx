@@ -4,7 +4,7 @@ import Button from "./Button/Button";
 import { FaGithub, FaJs, FaLinkedin, FaSlack} from 'react-icons/fa';
 
 
-const Card = ({name,login,web,repo,icons}) =>{
+const Card = ({name,login,web,repo,icons,color1,color2}) =>{
     return(
             <div  className="card">
 				<img />
@@ -21,8 +21,8 @@ const Card = ({name,login,web,repo,icons}) =>{
                     <br />
 
 					<footer>
-                        <Button text="Follow" color="rgb(390,150,390)"/>
-                        <Button text="View profile" color="rgb(255,255,100)"/>
+                        <Button text="Follow" color={color1}/>
+                        <Button text="View profile" color={color2}/>
 					</footer>
 				</div>
 			</div>
