@@ -1,7 +1,6 @@
 import React from "react";
 import './card.css'
 import Button from "./Button/Button";
-import { FaGithub, FaJs, FaLinkedin, FaSlack} from 'react-icons/fa';
 
 
 const Card = ({name,login,web,repo,icons,color1,color2}) =>{
